@@ -19,8 +19,8 @@ for iter = 1:num_iters
 	% theta = theta - alpha * (1/m) * sum(h(x)-y)*x
 	
 	%vectorized notation:
-	theta = theta .- alpha * (1/m) * (((X*theta) - y)' * X)';
-	% or theta = theta - alpha * (1/m) * (X' * ((X*theta) - y));
+	% or try theta = theta .- alpha * (1/m) * (((X*theta) - y)' * X)';
+	theta = theta - alpha * (1/m) * (X' * ((X*theta) - y));
 	
     % ============================================================
 

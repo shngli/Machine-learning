@@ -16,11 +16,11 @@ for iter = 1:num_iters
     % Hint: While debugging, it can be useful to print out the values
     % of the cost function (computeCost) and gradient here.
     
-	
+	% ex1.pdf page 5, 6
 	% J(theta) = (1/2m) * sum(h(x) - y)^2
 	% theta = theta - (alpha/m) * sum((h(x)-y)*x)
 	% h(x) = theta0 + theta1*x = theta transpose * x
-	% X*theta-y gves a mx1 matrix of the values h(x)-y
+	% X*theta-y gives a mx1 matrix of the values h(x)-y
 	
 	theta = theta - (alpha/m) * (X' * ((X*theta)-y));
 	% ============================================================

@@ -104,9 +104,23 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 % Recall that the first column of X is all-ones. Thus, it does
 % not need to be normalized.
-price = 0; % You should change this
 
+%the 1 is for intercept term
+v1 = [1 (1650 - mu(1,1))/sigma(1,1) (3 - mu(1,2))/sigma(1,2)];
+price = v1 * theta;
 
+%sqfeet = 1650;
+%bedrooms = 3;
+%normsqfeet = (sqfeet-mu(1))/sigma(1);
+%normbedrooms = (bedrooms-mu(2))/sigma(2);
+%price = [1 normsqfeet normbedrooms]*theta;
+
+%or 
+%v=[1 1650 3];
+%for i=2:size(v,2)	
+%	v(i) = (v(i)-mu(i-1))/sigma(i-1)	 
+%end
+%price = v * theta;
 % ============================================================
 
 fprintf(['Predicted price of a 1650 sq-ft, 3 br house ' ...
@@ -149,8 +163,8 @@ fprintf('\n');
 
 % Estimate the price of a 1650 sq-ft, 3 br house
 % ====================== YOUR CODE HERE ======================
-price = 0; % You should change this
-
+v2 = [1 1650 3];
+price = v2 * theta;
 
 % ============================================================
 
