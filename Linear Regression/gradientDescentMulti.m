@@ -18,10 +18,8 @@ for iter = 1:num_iters
     %
 	% theta = theta - alpha * (1/m) * sum(h(x)-y)*x
 	
-	%vectorized notation:
-	% or try theta = theta .- alpha * (1/m) * (((X*theta) - y)' * X)';
+	% vectorized notation:
 	theta = theta - alpha * (1/m) * (X' * ((X*theta) - y));
-	
     % ============================================================
 
     % Save the cost J in every iteration    

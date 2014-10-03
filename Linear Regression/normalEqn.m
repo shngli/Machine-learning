@@ -11,7 +11,7 @@ theta = zeros(size(X, 2), 1);
 %
 theta = pinv(X' * X) * X' * y;
 
-%can also use this: theta = inv(X' * X) * X' * y;
+%alternative solution: theta = inv(X' * X) * X' * y;
 % ============================================================
 
 end
