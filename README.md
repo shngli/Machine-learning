@@ -12,8 +12,8 @@ Topic sequence:
 7. K-means Clustering (to be updated)
 8. Anomaly Detection (to be updated)
 
-**Additional References:**
-
+Additional References
+---------------------
 1. **Machine Learning for Hackers** by Drew Conway and John White
 2. **Pattern Recognition and Machine Learning** by Christopher Bishop
 3. **The Elements of Statistical Learning** by Trevor Hastie, Robert Tibshirani and Jerome Friedman
