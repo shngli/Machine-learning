@@ -19,7 +19,6 @@ p = zeros(size(X, 1), 1);
 % function can also return the index of the max element, for more
 % information see 'help max'. If your examples are in rows, then, you
 % can use max(A, [], 2) to obtain the max for each row.
-%
 
 % Input Layer
 % Add ones to the X data matrix
@@ -40,7 +39,8 @@ a3 = sigmoid(z3); % results in [10, 5000]
 
 % calculating max on the transpose of a3 so the index 
 % result, p, has the expected dimensions [5000, 1]
-[h, p] = max(a3, [], 2);
+[val, p] = max(a3, [], 2);
 % =========================================================================
+
 
 end

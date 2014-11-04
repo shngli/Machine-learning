@@ -54,7 +54,6 @@ grad = (1/m) .* (X' * ((X*theta) - y)) + (lambda/m) .* temp;
 
 % Alternative solution for gradient:
 %grad = ((X' * ((X*theta)-y)) / m) + ((lambda/m) * [0; theta(2:end)]);
-
 % =========================================================================
 
 grad = grad(:);

@@ -2,10 +2,10 @@ function [all_theta] = oneVsAll(X, y, num_labels, lambda)
 %ONEVSALL trains multiple logistic regression classifiers and returns all
 %the classifiers in a matrix all_theta, where the i-th row of all_theta 
 %corresponds to the classifier for label i
-% [all_theta] = ONEVSALL(X, y, num_labels, lambda) trains num_labels
-% logisitc regression classifiers and returns each of these classifiers
-% in a matrix all_theta, where the i-th row of all_theta corresponds 
-% to the classifier for label i
+%   [all_theta] = ONEVSALL(X, y, num_labels, lambda) trains num_labels
+%   logisitc regression classifiers and returns each of these classifiers
+%   in a matrix all_theta, where the i-th row of all_theta corresponds 
+%   to the classifier for label i
 
 % Some useful variables
 m = size(X, 1);
@@ -27,13 +27,14 @@ X = [ones(m, 1) X];
 % whether the ground truth is true/false for this class.
 %
 % Note: For this assignment, we recommend using fmincg to optimize the cost
-% function. It is okay to use a for-loop (for c = 1:num_labels) to
-% loop over the different classes.
+% function. It is okay to use a for-loop (for c = 1:num_labels) to loop over 
+% the different classes.
 %
-% fmincg works similarly to fminunc, but is more efficient when we
-% are dealing with large number of parameters.
+% fmincg works similarly to fminunc, but is more efficient when we are dealing
+% with large number of parameters.
 %
 % Example Code for fmincg:
+%
 %     % Set Initial theta
 %     initial_theta = zeros(n + 1, 1);
 %     
@@ -49,7 +50,8 @@ X = [ones(m, 1) X];
 initial_theta = zeros(n + 1, 1);
 % Set options for fminunc
 % iteration could be bigger, e.g. 500
-options = optimset('GradObj', 'on', 'MaxIter', 500);
+%options = optimset('GradObj', 'on', 'MaxIter', 500);
+options = optimset('GradObj', 'on', 'MaxIter', 400, 'MaxFunEvals', 400);
 % for MatLab, the following optimset settings should be used
 % options = optimset('GradObj', 'on', 'MaxIter', 400, 'MaxFunEvals', 400);
 
@@ -60,6 +62,5 @@ for c = 1:num_labels
     all_theta(c,:) = theta;
 end
 % =========================================================================
-
 
 end

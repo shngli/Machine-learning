@@ -18,12 +18,12 @@ error_val = zeros(length(lambda_vec), 1);
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Fill in this function to return training errors in 
-% error_train and the validation errors in error_val. The 
-% vector lambda_vec contains the different lambda parameters 
-% to use for each calculation of the errors, i.e, 
-% error_train(i), and error_val(i) should give 
-% you the errors obtained after training with 
-% lambda = lambda_vec(i)
+%               error_train and the validation errors in error_val. The 
+%               vector lambda_vec contains the different lambda parameters 
+%               to use for each calculation of the errors, i.e, 
+%               error_train(i), and error_val(i) should give 
+%               you the errors obtained after training with 
+%               lambda = lambda_vec(i)
 %
 % Note: You can loop over lambda_vec with the following:
 %
@@ -36,6 +36,7 @@ error_val = zeros(length(lambda_vec), 1);
 %           ....
 %           
 %       end
+
 for i = 1:length(lambda_vec)
 	lambda = lambda_vec(i);
 	% Train model using subset
@@ -46,11 +47,11 @@ for i = 1:length(lambda_vec)
 	
 	% Calculate training error
 	[error_train(i), grad] = linearRegCostFunction(X, y, theta, 0);	
-	% or try error_train(i) = linearRegCostFunction(X, y, theta, 0);
+	% or error_train(i) = linearRegCostFunction(X, y, theta, 0);
 	
 	% Calculate cross-validation error
 	[error_val(i), grad] = linearRegCostFunction(Xval, yval, theta, 0);
-	% or try error_val(i) = linearRegCostFunction(Xval, yval, theta, 0);
+	% or error_val(i) = linearRegCostFunction(Xval, yval, theta, 0);
 
 end
 % =========================================================================
