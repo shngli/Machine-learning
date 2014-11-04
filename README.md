@@ -13,5 +13,8 @@ Topic sequence:
 8. Anomaly Detection (to be updated)
 
 **Additional References:**
+
 1. **Machine Learning for Hackers** by Drew Conway and John White
-2. **
+2. **Pattern Recognition and Machine Learning** by Christopher Bishop
+3. **The Elements of Statistical Learning** by Trevor Hastie, Robert Tibshirani and Jerome Friedman
+4. **CMSC 726: Machine Learning[http://www.cbcb.umd.edu/~hcorrada/PML/]** at University of Maryland by Héctor Corrada Bravo
