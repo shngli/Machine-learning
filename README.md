@@ -2,8 +2,8 @@ Machine learning
 ================
 Based on Andrew Ng's CS229 Machine Learning at Stanford University. Refer to [his course website](http://cs229.stanford.edu/) for lecture notes, linear algebra review, Matlab tutorial and practice problem sets.
 
-Topic sequence:
-
+Topic sequence
+-----------------------
 1. Linear Regression
 2. Logistic Regression
 3. Multiclass Classification and Neural Networks
