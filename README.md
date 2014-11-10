@@ -9,7 +9,7 @@ Topic sequence
 3. Multiclass Classification and Neural Networks
 4. Neural Network
 5. Linear Regression Bias vs Variance
-6. Support Vector Machines (to be updated)
+6. Support Vector Machines
 7. K-means Clustering (to be updated)
 8. Anomaly Detection (to be updated)
 
