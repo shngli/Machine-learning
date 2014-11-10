@@ -13,14 +13,15 @@ sigma = 0.3;
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Fill in this function to return the optimal C and sigma
-% learning parameters found using the cross validation set.
-% You can use svmPredict to predict the labels on the cross
-% validation set. For example, 
-% 	predictions = svmPredict(model, Xval);
-% will return the predictions on the cross validation set.
+%               learning parameters found using the cross validation set.
+%               You can use svmPredict to predict the labels on the cross
+%               validation set. For example, 
+%                   predictions = svmPredict(model, Xval);
+%               will return the predictions on the cross validation set.
 %
 %  Note: You can compute the prediction error using 
-%  mean(double(predictions ~= yval))
+%        mean(double(predictions ~= yval))
+
 vals = [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30];
 err = 1000;		%err = error ie. cost function
 for i=1:size(vals,2)
@@ -28,15 +29,16 @@ for i=1:size(vals,2)
 		model = svmTrain(X, y, vals(i), @(x1, x2) gaussianKernel(x1, x2, vals(j)));
 		prediction = svmPredict(model, Xval);
 		new_err = mean(double(prediction ~= yval));
-		fprintf("Error for C=%f and sigma=%f: %f",vals(i),vals(j),new_err);
+		fprintf('Error for C=%f and sigma=%f: %f',vals(i),vals(j),new_err);
 		if (new_err < err)
 			err = new_err;
 			C = vals(i);
 			sigma = vals(j);
-		endif	
-	endfor
-endfor
+        end	
+    end
+end
 
-fprintf(" Best C=%f; Best sigma=%f; Error=%f",C,sigma,err);
+fprintf(' Best C=%f; Best sigma=%f; Error=%f',C,sigma,err);
 % =========================================================================
+
 end
