@@ -10,7 +10,7 @@ Topic sequence
 4. Neural Network
 5. Linear Regression Bias vs Variance
 6. Support Vector Machines
-7. K-means Clustering (to be updated)
+7. K-means Clustering
 8. Anomaly Detection (to be updated)
 
 Additional References
