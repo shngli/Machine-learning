@@ -11,7 +11,7 @@ Topic sequence
 5. Linear Regression Bias vs Variance
 6. Support Vector Machines
 7. K-means Clustering
-8. Anomaly Detection (to be updated)
+8. Anomaly Detection
 
 Additional References
 ---------------------
