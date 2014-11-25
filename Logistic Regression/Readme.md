@@ -10,7 +10,7 @@
 - **costFunctionReg.m** - Regularized Logistic Regression Cost
 
 **Output**:
-- Scatterplot of previous university applicants' scores on 2 exams and the admission decision (training dataset) ![plot1.jpg](https://github.com/shngli/Machine-learning/blob/master/Logistic%20Regression/plot1.jpg)
+- Scatterplot of previous university applicants' scores on 2 exams and the admission decisions (training dataset) ![plot1.jpg](https://github.com/shngli/Machine-learning/blob/master/Logistic%20Regression/plot1.jpg)
 - Training dataset with decision boundary ![plot2.jpg](https://github.com/shngli/Machine-learning/blob/master/Logistic%20Regression/plot2.jpg)
-- Scatterplot of microchips' quality assurance test scores and whether to accept or reject each chip based on the test results  (y=1, accepted; y=0, rejected) ![plot3.jpg](https://github.com/shngli/Machine-learning/blob/master/Logistic%20Regression/plot3.jpg)
+- Scatterplot of microchips' quality assurance test scores and whether to accept/reject each chip based on the test results  (y=1, accepted; y=0, rejected) ![plot3.jpg](https://github.com/shngli/Machine-learning/blob/master/Logistic%20Regression/plot3.jpg)
 - Training dataset with decision boundary at lambda = 1 ![plot4.jpg](https://github.com/shngli/Machine-learning/blob/master/Logistic%20Regression/plot4.jpg)
