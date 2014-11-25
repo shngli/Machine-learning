@@ -1,0 +1,15 @@
+- **ex4.m**  - Matlab script for the exercise
+- **ex4data1.mat** - Training set of 5000 hand-written digits from 0 to 9
+- **ex4weights.mat** - Neural network parameters for exercise 4
+- **displayData.m** - Function to help visualize the dataset
+- **fmincg.m** - Function minimization routine (similar to fminunc), expected training accuracy of 95.3%
+- **sigmoid.m** - Sigmoid function
+- **computeNumericalGradient.m** - Numerically compute gradients
+- **checkNNGradients.m** - Function to help check your gradients, expected relative difference less than 1e-9
+- **debugInitializeWeights.m** - Function for initializing weights
+- **predict.m** - Neural network prediction function
+- **sigmoidGradient.m** - Compute the gradient of the sigmoid function
+- **randInitializeWeights.m** - Randomly initialize weights
+- **nnCostFunction.m** - Neural network cost function, expected cost of 0.287629 and 0.383770
+
+- Sample of hand-written digits from ex4data1.mat ![dataset samples.jpg](https://github.com/shngli/Machine-learning/blob/master/Neural%20Network/dataset%20samples.jpg)
