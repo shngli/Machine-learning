@@ -1,6 +1,6 @@
 - **ex1.m** and **ex1 multi.m** - Matlab scripts for the exercise
 - **ex1data1.txt** - Dataset for linear regression with one variable containing the population of different cities and the profit of a food truck in each city
-- **ex1data2.txt** - Dataset for linear regression with multiple variables
+- **ex1data2.txt** - Dataset for linear regression with multiple variables containing the size of houses (in square feet), the number of bedrooms and the price of the houses in Portland, Oregon
 - **warmUpExercise.m** - Function to return a 5x5 identity matrix
 - **plotData.m** - Function to display the dataset
 - **computeCost.m** - Function to compute the cost of linear regression; expected cost of 32.07
