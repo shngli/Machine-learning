@@ -73,7 +73,7 @@ pause;
 %  Once your cost function matches up with ours, you should now implement 
 %  the collaborative filtering gradient function. Specifically, you should 
 %  complete the code in cofiCostFunc.m to return the grad argument.
-%  
+
 fprintf('\nChecking Gradients (without regularization) ... \n');
 
 %  Check gradients by running checkNNGradients
@@ -103,7 +103,6 @@ pause;
 %% ======= Part 5: Collaborative Filtering Gradient Regularization ======
 %  Once your cost matches up with ours, you should proceed to implement 
 %  regularization for the gradient. 
-%
 
 %  
 fprintf('\nChecking Gradients (with regularization) ... \n');
@@ -213,7 +212,6 @@ pause;
 %% ================== Part 8: Recommendation for you ====================
 %  After training the model, you can now make recommendations by computing
 %  the predictions matrix.
-%
 
 p = X * Theta';
 my_predictions = p(:,1) + Ymean;

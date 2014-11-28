@@ -7,7 +7,6 @@ function p = multivariateGaussian(X, mu, Sigma2)
 %    treated as the covariance matrix. If Sigma2 is a vector, it is treated
 %    as the \sigma^2 values of the variances in each dimension (a diagonal
 %    covariance matrix)
-%
 
 k = length(mu);
 

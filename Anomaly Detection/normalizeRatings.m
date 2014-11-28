@@ -3,7 +3,6 @@ function [Ynorm, Ymean] = normalizeRatings(Y, R)
 %movie (every row)
 %   [Ynorm, Ymean] = NORMALIZERATINGS(Y, R) normalized Y so that each movie
 %   has a rating of 0 on average, and returns the mean rating in Ymean.
-%
 
 [m, n] = size(Y);
 Ymean = zeros(m, 1);

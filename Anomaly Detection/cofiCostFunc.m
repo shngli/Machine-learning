@@ -19,12 +19,11 @@ Theta_grad = zeros(size(Theta));
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the cost function and gradient for collaborative
-%               filtering. Concretely, you should first implement the cost
-%               function (without regularization) and make sure it is
-%               matches our costs. After that, you should implement the 
-%               gradient and use the checkCostFunction routine to check
-%               that the gradient is correct. Finally, you should implement
-%               regularization.
+% filtering. Concretely, you should first implement the cost function 
+% (without regularization) and make sure it is matches our costs. 
+% After that, you should implement the gradient and use the checkCostFunction 
+% routine to check that the gradient is correct. Finally, you should implement
+% regularization.
 %
 % Notes: X - num_movies  x num_features matrix of movie features
 %        Theta - num_users  x num_features matrix of user features
@@ -33,11 +32,10 @@ Theta_grad = zeros(size(Theta));
 %            i-th movie was rated by the j-th user
 %
 % You should set the following variables correctly:
-%
-%        X_grad - num_movies x num_features matrix, containing the 
-%                 partial derivatives w.r.t. to each element of X
-%        Theta_grad - num_users x num_features matrix, containing the 
-%                     partial derivatives w.r.t. to each element of Theta
+%   X_grad - num_movies x num_features matrix, containing the partial 
+%   derivatives w.r.t. to each element of X
+%   Theta_grad - num_users x num_features matrix, containing the partial 
+%   derivatives w.r.t. to each element of Theta
 
 % Only predict rating X*Theta' if user has rated (i.e. R=1)
 

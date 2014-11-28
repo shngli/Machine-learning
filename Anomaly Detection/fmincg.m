@@ -45,7 +45,6 @@ function [X, fX, i] = fmincg(f, X, options, P1, P2, P3, P4, P5)
 % [ml-class] Changes Made:
 % 1) Function name and argument specifications
 % 2) Output display
-%
 
 % Read options
 if exist('options', 'var') && ~isempty(options) && isfield(options, 'MaxIter')
