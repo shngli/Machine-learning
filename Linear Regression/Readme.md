@@ -14,6 +14,7 @@
 1) **plotData.m** creates a 2d scatterplot of profit (in $10,000s)  vs population (in 10,000s). 
 
 - Scatterplot of training data 
+
 ![plot1.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/plot1.jpg) 
 
 - Training data with linear regression fit
