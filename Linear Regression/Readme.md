@@ -12,11 +12,20 @@
 
 **Output**:
 1) **plotData.m** creates a 2d scatterplot of profit (in $10,000s)  vs population (in 10,000s). 
-- Scatterplot of training data ![plot1.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/plot1.jpg) 
-- Training data with linear regression fit ![plot2.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/plot2.jpg)
+
+- Scatterplot of training data 
+![plot1.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/plot1.jpg) 
+
+- Training data with linear regression fit
+![plot2.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/plot2.jpg)
 
 2) **ex1.m** calculates the cost function J(theta) over a grid of values using computeCost.m. 
-- Surface plot of the cost function ![cost function J.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/cost%20function%20J.jpg)
-- Contour plot of the cost function, showing the minimum ![cost function J contour.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/cost%20function%20J%20contour.jpg)
 
-3)  **ex1_multi.m** plots the convergence of gradient descent with an appropriate learning rate ![gradient descent convergence.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/gradient%20descent%20convergence.jpg)
+- Surface plot of the cost function 
+![cost function J.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/cost%20function%20J.jpg)
+
+- Contour plot of the cost function, showing the minimum 
+![cost function J contour.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/cost%20function%20J%20contour.jpg)
+
+3)  **ex1_multi.m** plots the convergence of gradient descent with an appropriate learning rate 
+![gradient descent convergence.jpg](https://github.com/shngli/Machine-learning/blob/master/Linear%20Regression/gradient%20descent%20convergence.jpg)
