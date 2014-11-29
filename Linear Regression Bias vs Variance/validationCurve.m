@@ -18,12 +18,10 @@ error_val = zeros(length(lambda_vec), 1);
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Fill in this function to return training errors in 
-%               error_train and the validation errors in error_val. The 
-%               vector lambda_vec contains the different lambda parameters 
-%               to use for each calculation of the errors, i.e, 
-%               error_train(i), and error_val(i) should give 
-%               you the errors obtained after training with 
-%               lambda = lambda_vec(i)
+% error_train and the validation errors in error_val. The vector lambda_vec 
+% contains the different lambda parameters to use for each calculation of 
+% the errors, i.e, error_train(i), and error_val(i) should give you the errors 
+% obtained after training with lambda = lambda_vec(i)
 %
 % Note: You can loop over lambda_vec with the following:
 %

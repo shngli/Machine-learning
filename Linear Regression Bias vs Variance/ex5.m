@@ -77,9 +77,7 @@ pause;
 %  trainLinearReg function will use your cost function to train 
 %  regularized linear regression.
 % 
-%  Write Up Note: The data is non-linear, so this will not give a great 
-%                 fit.
-%
+%  Write Up Note: The data is non-linear, so this will not give a great fit.
 
 %  Train linear regression with lambda = 0
 lambda = 0;
@@ -101,8 +99,7 @@ pause;
 %  Next, you should implement the learningCurve function. 
 %
 %  Write Up Note: Since the model is underfitting the data, we expect to
-%                 see a graph with "high bias" -- slide 8 in ML-advice.pdf 
-%
+%  see a graph with "high bias" -- slide 8 in ML-advice.pdf 
 
 lambda = 0;
 [error_train, error_val] = ...
@@ -128,7 +125,6 @@ pause;
 %% =========== Part 6: Feature Mapping for Polynomial Regression =============
 %  One solution to this is to use polynomial regression. You should now
 %  complete polyFeatures to map each example into its powers
-%
 
 p = 8;
 
@@ -162,7 +158,6 @@ pause;
 %  values of lambda. The code below runs polynomial regression with 
 %  lambda = 0. You should try running the code with different values of
 %  lambda to see how the fit and learning curve change.
-%
 
 lambda = 0;
 [theta] = trainLinearReg(X_poly, y, lambda);
@@ -199,7 +194,6 @@ pause;
 %  You will now implement validationCurve to test various values of 
 %  lambda on a validation set. You will then use this to select the
 %  "best" lambda value.
-%
 
 [lambda_vec, error_train, error_val] = ...
     validationCurve(X_poly, y, X_poly_val, yval);

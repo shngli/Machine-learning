@@ -4,7 +4,6 @@ function [theta] = trainLinearReg(X, y, lambda)
 %   [theta] = TRAINLINEARREG (X, y, lambda) trains linear regression using
 %   the dataset (X, y) and regularization parameter lambda. Returns the
 %   trained parameters theta.
-%
 
 % Initialize Theta
 initial_theta = zeros(size(X, 2), 1); 
