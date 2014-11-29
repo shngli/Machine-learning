@@ -10,8 +10,7 @@ centroids = zeros(K, size(X, 2));
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: You should set centroids to randomly chosen examples from
-%               the dataset X
-%
+% the dataset X
 
 % Initialize the centroids to be random examples
 % Randomly reorder the indices of examples
